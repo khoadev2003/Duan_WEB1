@@ -1,0 +1,119 @@
+
+
+
+.Header__nav-mobile {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 48px;
+}
+
+
+
+/* mobile nav */
+.nav_bars-btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    display: none;
+}
+
+.nav_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: -1100px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.nav__mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform linear 0.2s,  opacity linear 0.2s;
+    z-index: 1000;
+}
+
+.wrap__btn-moile {
+    margin-left: 500px;
+}
+
+.nav__mobile-list {
+    margin-top: 24px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.nav__mobile-link {
+    text-decoration: none;
+    color: #222;
+    display: block;
+    padding: 8px 0;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.nav__mobile-close {
+    width: 54px;
+    height: 54px;
+    color: #666;
+    position: absolute;
+    top: 60px;
+    left: 83%;
+}
+
+.nav__input {
+    display: block;
+    left: 50px;
+    opacity: 0;
+    
+}
+
+.nav__input:checked ~ .nav_overlay {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media (max-width: 1023px) {
+    .nav_bars-btn {
+        display: block;
+    }
+    
+
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}

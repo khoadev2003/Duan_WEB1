@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="tinthoitrang.css">
+    <link rel="stylesheet" href="lienhe.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="nav_tablet-mobile.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <title>Liên hệ</title>
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <div id="header">
+            <nav class="container">
+                <div id="logo-header">
+                    <img src="./img/logo_khatoco.webp" alt="">
+                </div>
+                <ul id="main-menu">
+                    <!-- <li><img src="./img/logo_khatoco.webp" alt=""></li> -->
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li>
+                        <a href="index.html">Sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Quần short</a></li>
+                            <li><a href="">Quần jeans</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#1">Phụ kiện</a>
+                        <ul class="sub-menu">
+                            <li><a href="#1">Thắt lưng</a></li>
+                            <li><a href="">Mắt kính</a></li>
+                            <li><a href="">Túi</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#1">Liên hệ</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Địa chỉ</a></li>
+                            <li><a href="">Email</a></li>
+                            <li><a href="">Phone</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#1">Dịch vụ</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Bảo hành</a></li>
+                            <li><a href="">Đặt hàng</a></li>
+                            <li><a href="">Giao hàng</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a href="#1">Tin Thời Trang</a>
+
+
+                    </li>
+                    
+                    <!-- Form login -->
+                    <li>
+                        <button class="btn-user"><i class=" fa-solid fa-user"></i></button>
+                        
+                        <ul class="form-item">
+                            <li>
+                                <div class="forms">
+                                    <form action="">
+                                        <h3>Đăng nhập tài khoản</h3>
+                                        <div class="form-login">
+                                            <input type="text" name="email" required >
+                                            <label for="">Email</label>
+                                        </div>
+                                        <div class="form-login">
+                                            <input type="password" name="password" required >
+                                            <label for="">Mật khẩu</label>
+                                        </div>
+                                        <div class="form-login">
+                                            <input type="password" name="password" required id="confirmPw">
+                                            <label for="">Nhập lại mật khẩu</label>
+                                        </div>
+                                        <input type="submit" value="Đăng nhập"  class="btn-login">
+                                        
+                                        <div class="or-login">
+                                            <p>hoặc đăng nhập với</p>
+                                            <div class="logo-login">
+                                                <button class="logo-login-item"><i
+                                                        class=" fa-brands fa-facebook"></i></button>
+                                                <button class="logo-login-item">
+                                                        <i class="color-inta fa-brands fa-instagram"></i></button>
+                                                <button class="logo-login-item"><i
+                                                        class=" color-black fa-brands fa-brands fa-tiktok"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="new-user">
+                                            <div class="new-user-link">
+                                                <a href="">Khách hàng mới?</a>
+                                                <a href="account.html">Tạo tài khoản</a>
+                                            </div>
+                                            <div class="new-user-link">
+                                                <a href="">Quên mật khẩu?</a>
+                                                <a href="">Khôi phục mật khẩu</a>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Seach -->
+                    <li>
+                        <i class="pseudo-class fa-solid fa-magnifying-glass"></i>
+                        <!-- <a class="header-icon" href=""><i class="fa-solid fa-magnifying-glass"></i></a> -->
+                        <ul class="header-search">
+
+                            <li>
+                                <div class="search">
+                                    <div class="seach-top">
+                                        <p>Tìm kiếm</p>
+                                    </div>
+
+                                    <form action="" class="search-box">
+                                        <input type="text" class="search-text" placeholder="Tìm kiếm sản phẩm..."
+                                            required>
+                                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- User -->
+                    <!-- <li>
+                        <i class=" fa-solid fa-user"></i>
+                        <ul class="form-item">
+                            <li>
+                                <div class="forms">
+                                    <form action="">
+                                        <h3>Đăng nhập tài khoản</h3>
+                                        <div class="form-login">
+                                            <input type="text" name="email" required>
+                                            <label for="">Email</label>
+                                        </div>
+                                        <div class="form-login">
+                                            <input type="password" name="password" required>
+                                            <label for="">Mật khẩu</label>
+                                        </div>
+                                        <div class="form-login">
+                                            <input type="password" name="password" required>
+                                            <label for="">Nhập lại mật khẩu</label>
+                                        </div>
+                                        <input type="submit" value="Đăng nhập" class="btn-login">
+                                        
+                                        <div class="or-login">
+                                            <p>hoặc đăng nhập với</p>
+                                            <div class="logo-login">
+                                               
+                                                
+                                                <button class="logo-login-item"><i
+                                                        class=" fa-brands fa-facebook"></i></button>
+                                                <button class="logo-login-item">
+                                                        <i class="color-inta fa-brands fa-instagram"></i></button>        
+                                                
+                                                <button class="logo-login-item"><i
+                                                        class=" color-black fa-brands fa-brands fa-tiktok"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="new-user">
+                                            <div class="new-user-link">
+                                                <a href="">Khách hàng mới?</a>
+                                                <a href="account.html">Tạo tài khoản</a>
+                                            </div>
+                                            <div class="new-user-link">
+                                                <a href="">Quên mật khẩu?</a>
+                                                <a href="">Khôi phục mật khẩu</a>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </li> -->
+
+                    <!-- Cart -->
+                    <li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <ul class="header-no-cart">
+
+                            <li>
+                                <div class="no-cart-item">
+                                    <div class="no-cart-top">
+                                        <p>Giỏ hàng</p>
+                                    </div>
+
+                                    <div class="no-cart">
+                                        <img src="./img/no_cart.png" alt="">
+                                        <p>Hiện chưa có sản phẩm</p>
+                                    </div>
+                                    <div class="list-cart2"></div>
+                                    <div class="no-cart-text">
+                                        <p>TỔNG TIỀN:</p>
+                                        <P>0₫</P>
+                                    </div>
+                                    <div class="no-cart-btn">
+                                        <button class="btn-black">XEM GIỎ HÀNG</button>
+                                        <button class="btn-red">THANH TOÁN</button>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+                <ul>
+                    <li></li>
+                </ul>
+
+            </nav>
+
+            <div class="Header__nav-mobile">
+                    
+                <label for="nav-mobile-input" class="nav_bars-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </label>
+
+
+                <input type="checkbox"  name="" class="nav__input" id="nav-mobile-input">
+
+
+                <label for="nav-mobile-input" class="nav_overlay"></label>
+
+                <nav class="nav__mobile">
+                    <label for="nav-mobile-input" class="nav__mobile-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+                    </label>
+                    <ul class="nav__mobile-list">
+                        <li>
+                            <a href="index.html" class="nav__mobile-link">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#product-target" class="nav__mobile-link">Sản phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#1" class="nav__mobile-link">Phụ kiện</a>
+                        </li>
+                        <li>
+                            <a href="lienhe.html" class="nav__mobile-link">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="tinthoitrang.html" class="nav__mobile-link">Tin thời trang</a>
+                        </li>
+                        <li>
+                            <a href="account.html" class="nav__mobile-link">Đăng nhập</a>
+                        </li>
+                        <li>
+                            <a href="cart.html" class="nav__mobile-link">Giỏ hàng</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+                
+                <div id="logo-header">
+                    <img src="./img/logo_khatoco.webp" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- Content -->
+        <div class="rong">
+
+        </div>
+       
+
+        <div class="return-page">
+            <div class="wapper-return-page">
+                <a href="index.html">Trở về trang chủ</a> 
+                <a href="">/</a>
+                <a href="">Giỏ hàng</a>
+            </div>
+            
+        </div>
+
+        
+        <!-- Giỏ hàng -->
+        
+        <div class="carts">
+            <div class="cart__img">
+                <div class="cart__img-list">
+                    <i class="iconsilde-left fa-solid fa-chevron-left" onclick="beforeSlide();"></i>
+                    <img id="mySlide" src="./img/pants_1.jpg">
+                    <i class="iconsilde-right fa-solid fa-chevron-right" onclick="nextSlide();"></i>
+                    <div id="mirror"></div>
+                    <div class="hide"></div>
+                </div>
+            </div>
+            <div class="cart__content">
+                <div class="cart__head">
+                    <h2>Quần nam Khatoco caro xanh</h2>
+                    <div class="cart__rice">468,000₫</div>
+                </div>
+                <div class="cart__size-list">
+                    <div class="cart__size">
+                        <div class="tittle-size">Kích thước: </div>
+                        <input type="submit" value="S">
+                        <input type="submit" value="M">
+                        <input type="submit" value="L">
+                    </div>
+                    <div class="cart__color">
+                        <div class="tittle-size">Màu sắc: </div>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="cart-bottom">
+                    <div class="more-cart">
+                        <button onclick="handleMinus()" ><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" value="1" id="amount">
+                        <button onclick="handlePlus()"><i class="fa-solid fa-plus"></i> </button>
+                    </div>
+                    <input type="button" value="Mua ngay">
+                </div>
+                <ul class="free_ship">
+                    <li>
+                        
+                        <i class="fa-solid fa-car-side"></i>
+                        <strong>MIỄN PHÍ GIAO HÀNG</strong>
+                        <p>Đối với hoá đơn từ 299.000₫</p>
+                    </li>
+                    <li>
+                        <i class="fa-sharp fa-regular fa-clock"></i>
+                        <strong>14 NGÀY ĐỔI SẢN PHẨM</strong>
+                        <p>Đổi sản phẩm trong 14 ngày</p>
+                        <strong>KHÔNG ÁP DỤNG ĐỔI HÀNG ĐỐI VỚI CÁC SẢN PHẨM KHUYẾN MÃI TỪ 40% TRỞ LÊN</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Add cart -->
+        
+
+    </div>
+
+    <div class="boc">
+        <div class="wrap__add-cart">
+            <div class="menu__cart">
+                <div class="logo">
+                    <span>Danh mục</span>
+                </div>
+                <ul>
+                    <li></i>Quần short</li>
+                    <li></i>Quần Jeans</li>
+                    <li></i>Phụ kiện</li>
+                </ul>
+                <ul>
+                    <li></i>Áo thun</li>
+                    <li></i>Áo khoác</li>
+                    <li></i>Phụ kiện</li>
+                </ul>
+                
+            </div>
+            
+            <div class="content__cart">
+                <div class="search__cart">
+                    <div class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search...">
+                        <button>Search</button>
+                    </div>
+                </div>
+                
+                <h1>Sản phẩm</h1>
+                <div class="carts-list">
+                    <div class="carts-item" data-key="1">
+                        <div class="img">
+                            <img src="img/pants_1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Quần nam</div>
+                            <div class="des">
+                                Quần nam cao cấp
+                            </div>
+                            <div class="price">$17.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button onclick="Remove(1)" class="remove"  ><i class="fa-solid fa-trash"></i></button>
+                                
+                            </div>
+
+
+                        </div>                      
+    
+                    </div>
+                    <div class="carts-item" data-key="2">
+                        <div class="img">
+                            <img src="img/pants_2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Quần nam</div>
+                            <div class="des">
+                                Quần nam cao cấp
+                            </div>
+                            <div class="price">$20.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button onclick="Remove(2)" class="remove"  ><i class="fa-solid fa-trash"></i></button>
+                                
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="carts-item" data-key="3">
+                        <div class="img">
+                            <img src="img/pants_3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Quần nam</div>
+                            <div class="des">
+                                Quần nam cao cấp
+                            </div>
+                            <div class="price">$16.9</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(3)" ><i class="fa-solid fa-trash"></i></button>
+                                
+                            </div>
+                            
+                        </div>
+    
+                    </div>
+                    <div class="carts-item" data-key="4">
+                        <div class="img">
+                            <img src="img/pants_4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Quần nam</div>
+                            <div class="des">
+                                Quần nam cao cấp
+                            </div>
+                            <div class="price">$25.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(4)" ><i class="fa-solid fa-trash"></i></button>
+                                
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="carts-item" data-key="5">
+                        <div class="img">
+                            <img src="img/pants_5.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Quần nam trắng</div>
+                            <div class="des">
+                                Quần nam cao cấp
+                            </div>
+                            <div class="price">$18.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(5)" ><i class="fa-solid fa-trash"></i></button>
+                                
+                            </div>
+                           
+                        </div>
+    
+                    </div>
+                    <div class="carts-item" data-key="6">
+                        <div class="img">
+                            <img src="img/pants_8.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Quần nam cao cấp</div>
+                            <div class="des">
+                                Quần nam cao cấp
+                                
+    
+                            </div>
+                            <div class="price">$20.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(6)" ><i class="fa-solid fa-trash"></i></button>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carts-item" data-key="7">
+                        <div class="img">
+                            <img src="img/shirt2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Áo nam cao cấp</div>
+                            <div class="des">
+                                Áo nam cao cấp                               
+                            </div>
+                            <div class="price">$20.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(7)" ><i class="fa-solid fa-trash"></i></button>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carts-item" data-key="8">
+                        <div class="img">
+                            <img src="img/shirt3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Áo nam cao cấp</div>
+                            <div class="des">
+                                Áo nam cao cấp                               
+                            </div>
+                            <div class="price">$20.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(8)" ><i class="fa-solid fa-trash"></i></button>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carts-item" data-key="9">
+                        <div class="img">
+                            <img src="img/shirt4.jfif" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Áo nam cao cấp</div>
+                            <div class="des">
+                                Áo nam cao cấp                               
+                            </div>
+                            <div class="price">$20.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(9)" ><i class="fa-solid fa-trash"></i></button>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carts-item" data-key="10">
+                        <div class="img">
+                            <img src="img/shirt5.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">Áo nam cao cấp</div>
+                            <div class="des">
+                                Áo nam cao cấp                               
+                            </div>
+                            <div class="price">$20.3</div>
+                            <div class="content__bottom">
+                                <input type="number" class="count" min="1" value="1">
+                                <button class="add">Thêm vào giỏ</button>
+                                <button class="pay">Thanh toán</button>
+                                <button class="remove" onclick="Remove(10)" ><i class="fa-solid fa-trash"></i></button>                               
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="add__cart">
+                <div  class="name"><i class="fa-solid fa-cart-plus"></i>Giỏ hàng</div>
+                <div class="list-cart"></div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Địa chỉ </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+
+                            <a href="" class="footer-item__link">
+                                <i class="fa-solid color-black fa-location-dot"></i>
+                                Số 288 Nguyễn Văn Linh
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hưng Lợi, Ninh Kiều</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">TP. Cần Thơ</a>
+                        </li>
+                        <br>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Phone: 0336246555</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link"><img class="notification" src="./img/icon.png"
+                                    alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Giới thiệu </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Hỗ trợ </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn thanh toán</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách đổi trả</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Thông số sản phẩm</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Theo dõi </h3>
+                    <ul class="footer-list">
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon color-inta fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon color-black fa-brands fa-brands fa-tiktok"></i>
+
+                                Tiktok
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">QR Code</h3>
+                    <div class="footer__download">
+                        <img src="./img/qr-Facebook.png" alt="Download QR" class="footer__download-qr">
+                        <div class="footer__download-apps">
+
+                            <a href="https://www.facebook.com/profile.php?id=100035127872571"
+                                class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                            <a href="" class="footer-item__link">
+
+                                <img class="footer-item__zalo" src="./img/icon-zalo.png" alt="">
+                                <span>Zalo</span>
+
+                            </a>
+
+
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer__bottom">
+            <div class="grid">
+                
+                <p class="footer__text">© 2023 - Bản quyền thuộc về Nguyễn Lê Anh Khoa</p>
+                <p class="footer__text">Xây dựng trang Web - CĐ FPT Polytechnic Cần Thơ</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="./JS/cart.js"></script>
+<script src="./JS/add_cart.js"></script>
+<script src="./JS/login.js"></script>
+
+
+</html>
